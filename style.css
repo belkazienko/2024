@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --branco: #dad7cdff;
+    --verde-clarinho: #a3b18aff;
+    --verde-folha-claro: #588157ff;
+    --verde-militar: #3a5a40ff;
+    --verde-extremo: #344e41ff;
+}
