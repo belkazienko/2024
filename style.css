@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +10,16 @@
     --verde-folha-claro: #588157ff;
     --verde-militar: #3a5a40ff;
     --verde-extremo: #344e41ff;
+    --fonte-titulo:"PT Serif", serif;
+    --fonte-texto:"Playfair Display", serif;
+}
+
+body{
+    background-color:var(--verde-clarinho);
+    font-family:var(--fonte-texto);
+    font-size: 16px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
 }
