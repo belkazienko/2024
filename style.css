@@ -14,6 +14,26 @@
     --fonte-texto:"Playfair Display", serif;
 }
 
+.cabecalho{
+    background-color: var(--verde-extremo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.cabecalho.img{
+    width: 10px;
+    border-radius: 100%;
+}
+.cabecalho-nav__link{
+    text-decoration: none;
+    font-family: var(--texto-titulo);
+    font-size: 24px;
+    color: var(--branco);
+    margin-right: 24px;
+}
+
 body{
     background-color:var(--verde-clarinho);
     font-family:var(--fonte-texto);
@@ -23,3 +43,4 @@ body{
 .titulo-principal{
     font-family: var(--fonte-titulo);
 }
+
