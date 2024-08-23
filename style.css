@@ -14,6 +14,16 @@
     --fonte-texto:"Playfair Display", serif;
 }
 
+body{
+    background-color:var(--verde-clarinho);
+    font-family:var(--fonte-texto);
+    font-size: 16px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+}
+
 .cabecalho{
     background-color: var(--verde-extremo);
     display: flex;
@@ -34,13 +44,39 @@
     margin-right: 24px;
 }
 
-body{
-    background-color:var(--verde-clarinho);
-    font-family:var(--fonte-texto);
-    font-size: 16px;
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/Logotipo\ de\ loja\ de\ aromas\ e\ essências\ minimalista\ floral\ verde\ e\ branco.png);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    padding: 24px 12px;
 }
 
-.titulo-principal{
-    font-family: var(--fonte-titulo);
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
+.principal-capa__titulo{
+    font-family: var(--branco);
+    font-size: 32px;
+    color: var(--verde-militar);
+    margin-bottom: 12px;
+}
+
+.principal-capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+.principal-capa__imagem{
+    border-radius: 0 5% 0 5%;
+}
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
