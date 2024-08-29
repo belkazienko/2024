@@ -51,11 +51,10 @@ text-shadow: 2px 2px var(--verde-folha-claro);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
-    background-image: url( );
+    gap: 14px;
+    background-image: url(img/fundo.jpg);
     background-repeat: no-repeat;
-    margin-left: 12px;
-    padding: 24px 12px;
+    background-size: 100vw;
 }
 
 .principal-capa__imagem{
@@ -64,6 +63,7 @@ text-shadow: 2px 2px var(--verde-folha-claro);
     gap: 12px;
     width: 330px;
     border-radius: 100px;
+    border-bottom: 100px;
 }
 .principal-capa__texto{
     font-size: 24px;
