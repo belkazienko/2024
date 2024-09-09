@@ -28,9 +28,10 @@ body{
     padding: 12px;
 }
 
-.cabecalho.img{
-    width: 20px;
+.cabecalho-img{
+    width: 330px;
     border-radius: 100%;
+    border-bottom: 100%;
 }
 
 .cabecalho-nav__link{
@@ -80,8 +81,8 @@ text-shadow: 2px 2px (var(--verde-folha-claro));
 .principal-capa__imagem{
     gap: 12px;
     width: 330px;
-    border-radius: 100px;
-    border-bottom: 100px;
+    border-radius: 100%;
+    border-bottom: 100%;
 }
 
 .principal-capa__botao{
