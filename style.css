@@ -137,3 +137,25 @@ text-shadow: 2px 2px (var(--verde-folha-claro));
     font-size: 20px;
     color: var(--verde-extremo);
 }
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulos{
+    font-family: var(--fonte-titulo);
+    font-size: 48px;
+    color: var(--verde-extremo);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em;
+}
+
+.lista__item{
+    font-size: 24px;
+    color: var(--verde-clarinho);
+}
