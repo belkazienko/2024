@@ -28,8 +28,8 @@ body{
     padding: 12px;
 }
 
-.cabecalho.img{
-    width: 20px;
+.cabecalho-img{
+    width: 20%;
     border-radius: 100%;
 }
 
@@ -78,10 +78,13 @@ text-shadow: 2px 2px (var(--verde-folha-claro));
 }
 
 .principal-capa__imagem{
-    gap: 12px;
-    width: 330px;
-    border-radius: 100px;
-    border-bottom: 100px;
+    width: 30%;
+    border-radius: 100%;
+}
+
+.principal-capa__imagem:hover{
+    width:30% ;
+    transition: 1s;
 }
 
 .principal-capa__botao{
@@ -100,10 +103,11 @@ text-shadow: 2px 2px (var(--verde-folha-claro));
 }
 
 .botao__secundario{
-    background-color: var();
-    border: 5px solid var(--verde-extremo);
-    color: var(--verde-militar);
+    background-color: transparent;
+    border: 5px;
+    color: var(--verde-extremo);
     padding: 1em;
+    margin-right: 15%;
 }
 
 .propaganda{
@@ -116,15 +120,22 @@ text-shadow: 2px 2px (var(--verde-folha-claro));
 }
 
 .propaganda__imagem{
-   margin-left:10%;
-   width: 100%;
-   margin-top: 15%;
+   margin:5%;
+   width: 80%;
+   margin-left: 15%;
+   border-radius: 90%;
+}
+
+.propaganda__imagem:hover{
+    width: 85%;
+    transition: 1s;
 }
 
 .propaganda__titulo{
     font-family: var(--fonte-titulo);
-    font-size: 28px;
+    font-size: 40px;
     color: var(--branco);
+    margin-right: 15%;
 }
 
 .propaganda__titulo:hover{
@@ -133,6 +144,68 @@ text-shadow: 2px 2px (var(--verde-folha-claro));
 }
 
 .propaganda__texto{
-    font-size: 20px;
+    font-size: 80%;
     color: var(--verde-extremo);
+    margin-right:15%;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 38px;
+    color: var(--verde-extremo);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista_item{
+    font-size: 24px;
+    color: var(--verde-militar);
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista_link a{
+    text-decoration: none;
+    color: var(--verde-folha-claro);
+    margin-left: 1em;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lista_link:hover{
+    color: var(--verde-clarinho);
+    transition: 0.5s;
+}
+
+.rodape_texto{
+    margin: 1em 0;
+    color: var(--verde-extremo);
+    font-size: 14px;
+}
+.rodape{
+    align-items: center;
+    margin: 5em 3em;
+}
+
+.rodape_logo{
+    width: 30%;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
